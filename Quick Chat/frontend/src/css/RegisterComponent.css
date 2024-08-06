@@ -1,0 +1,102 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.register-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none; /* Remove outline */
+}
+
+.password-input button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  color: #333;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+.show-password-btn:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.password-input input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login-message {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-message a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-message a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    width: 90%;
+    max-width: 400px;
+  }
+}

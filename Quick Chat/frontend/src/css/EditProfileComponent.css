@@ -1,0 +1,89 @@
+/* EditProfileComponent.css */
+
+.edit-profile-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+.button-group{
+  margin-left: 500px;
+}
+
+.edit-profile-form-group {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.edit-profile-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-profile-form-group input[type="text"],
+.edit-profile-form-group input[type="email"],
+.edit-profile-form-group input[type="date"],
+.edit-profile-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-profile-form-group textarea {
+  height: 100px; /* Adjust as needed */
+}
+
+.button-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-center button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-center button:hover {
+  background-color: #0056b3;
+}
+
+.back-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #0056b3;
+}

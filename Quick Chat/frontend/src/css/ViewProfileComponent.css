@@ -1,0 +1,67 @@
+/* ViewProfileComponent.css */
+
+.view-profile-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-button-group {
+  justify-content: space-between;
+  position: absolute;
+  display: flex;
+  margin-left: 490px;
+  gap: 15px;
+}
+
+.faLeft, .faPen {
+  color: #007bff;
+  font-size: 24px;
+}
+
+.faLeft:hover, .faPen:hover {
+  color: #0056b3;
+}
+
+.view-profile-form {
+  margin-top: 20px;
+}
+
+.profile-form-group {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.profile-form-group label {
+  font-weight: bold;
+}
+
+.values { 
+  position: absolute;
+  margin-left: 150px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-group a {
+    margin-bottom: 10px;
+  }
+}
